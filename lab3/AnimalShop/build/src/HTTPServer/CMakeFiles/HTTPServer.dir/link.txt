@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHTTPServer.a  CMakeFiles/HTTPServer.dir/HTTPServer.cpp.o
+/usr/bin/ranlib libHTTPServer.a

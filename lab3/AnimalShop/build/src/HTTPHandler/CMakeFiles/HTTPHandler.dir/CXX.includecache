@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/batman/prj/mirea/ksp/lab3/libs/HTTPHandler/HTTPHandler.cpp
+HTTPHandler.h
+/home/batman/prj/mirea/ksp/lab3/libs/HTTPHandler/HTTPHandler.h
+sstream
+-
+stdexcept
+-
+algorithm
+-
+
+/home/batman/prj/mirea/ksp/lab3/libs/HTTPHandler/HTTPHandler.h
+string
+-
+ostream
+-
+map
+-
+vector
+-
+utility
+-
+

@@ -1,0 +1,1 @@
+/home/batman/prj/mirea/ksp/lab3/AnimalShop/src/../bin/AnimalShop

@@ -1,11 +1,28 @@
 package com.example.AnimalShop;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "animals")
 public class Animal {
-    String type;
-    String name;
-    int age;
-    String size;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int id;
+
+    @Column(length = 32)
+    String type;
+
+    @Column(length = 32)
+    String name;
+
+    @Column
+    int age;
+
+    @Column(length = 32)
+    String size;
+
+    @Column
     int cost;
 
     public Animal(String type, String name, int age, String size, int cost) {

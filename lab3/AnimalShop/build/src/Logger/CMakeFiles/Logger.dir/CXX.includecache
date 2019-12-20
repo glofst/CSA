@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/batman/prj/mirea/ksp/lab3/libs/Logger/Logger.cpp
+Logger.h
+/home/batman/prj/mirea/ksp/lab3/libs/Logger/Logger.h
+iostream
+-
+ctime
+-
+
+/home/batman/prj/mirea/ksp/lab3/libs/Logger/Logger.h
+fstream
+-
+string
+-
+iostream
+-
+sstream
+-
+mutex
+-
+

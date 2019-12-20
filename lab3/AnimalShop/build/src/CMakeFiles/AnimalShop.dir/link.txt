@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/AnimalShop.dir/main.cpp.o  -o AnimalShop -lpthread HTTPServer/libHTTPServer.a Logger/libLogger.a HTTPHandler/libHTTPHandler.a SimpleSQL/libSimpleSQL.a database/libdatabase.a SimpleSQL/libSimpleSQL.a /usr/lib/x86_64-linux-gnu/libmysqlclient.so 
